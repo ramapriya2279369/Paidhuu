@@ -133,7 +133,7 @@ function App() {
         </div>
         <h1 className="hero-tagline" style={{ display: 'flex', alignItems: 'center', gap: '15px', justifyContent: 'center' }}>
           <img src="/assets/paidhu_text_gold.png" alt="Paidhu" style={{ height: '70px', objectFit: 'contain' }} />
-          <span>GROUP</span>
+          <span style={{ background: 'linear-gradient(90deg, #d4af37, #c0c0c0)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>GROUP</span>
         </h1>
         <p className="hero-description">
           A multi-brand ecosystem driving ethical growth, premium lifestyles, luxury craftsmanship, and smart education.
