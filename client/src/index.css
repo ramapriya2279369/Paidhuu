@@ -465,9 +465,9 @@ body {
 
 /* Glow highlights per card based on theme - soft luxury trust colors */
 .brand-card.paidhuethicalfoods:hover {
-  background: linear-gradient(135deg, rgba(226, 199, 153, 0.05) 0%, rgba(4, 10, 8, 0.6) 100%);
-  border-color: rgba(226, 199, 153, 0.3);
-  box-shadow: 0 25px 60px -10px rgba(226, 199, 153, 0.25), 0 0 45px rgba(226, 199, 153, 0.1);
+  background: linear-gradient(135deg, rgba(228, 235, 219, 0.05) 0%, rgba(4, 10, 8, 0.6) 100%);
+  border-color: rgba(228, 235, 219, 0.3);
+  box-shadow: 0 25px 60px -10px rgba(228, 235, 219, 0.25), 0 0 45px rgba(228, 235, 219, 0.1);
 }
 .brand-card.floffi:hover {
   background: linear-gradient(135deg, rgba(249, 115, 22, 0.04) 0%, rgba(4, 10, 8, 0.6) 100%);
@@ -502,7 +502,7 @@ body {
 }
 
 .brand-card.paidhuethicalfoods:hover .card-divider {
-  background: #e2c799;
+  background: #e4ebdb;
 }
 .brand-card.floffi:hover .card-divider {
   background: #f97316;
@@ -514,8 +514,23 @@ body {
   background: #ef4444;
 }
 
-.brand-card:hover h3 {
-  background: linear-gradient(135deg, #ffffff 60%, var(--accent-gold) 100%);
+.brand-card.paidhuethicalfoods:hover h3 {
+  background: linear-gradient(135deg, #ffffff 50%, #e4ebdb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.brand-card.floffi:hover h3 {
+  background: linear-gradient(135deg, #ffffff 50%, #f97316 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.brand-card.viyara:hover h3 {
+  background: linear-gradient(135deg, #ffffff 50%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.brand-card.kalikasphere:hover h3 {
+  background: linear-gradient(135deg, #ffffff 50%, #ef4444 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -525,8 +540,19 @@ body {
 }
 
 .brand-card:hover .brand-action {
-  color: var(--text-primary);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+.brand-card.paidhuethicalfoods:hover .brand-action {
+  color: #e4ebdb;
+}
+.brand-card.floffi:hover .brand-action {
+  color: #f97316;
+}
+.brand-card.viyara:hover .brand-action {
+  color: #3b82f6;
+}
+.brand-card.kalikasphere:hover .brand-action {
+  color: #ef4444;
 }
 
 .brand-card:hover .brand-action svg {
