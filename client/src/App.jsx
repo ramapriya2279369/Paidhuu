@@ -118,7 +118,7 @@ function App() {
       <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <a href="#home" className="nav-brand" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
           <img src="/assets/paidhu_monogram_white.png" alt="Paidhu Group Logo" className="nav-brand-logo" />
-          <img src="/assets/paidhu_text_gold.png" alt="Paidhu" className="nav-brand-text-logo" style={{ height: '18px', objectFit: 'contain' }} />
+          <img src="/assets/paidhu_text_gold.png" alt="Paidhu" className="nav-brand-text-logo" style={{ height: '22px', objectFit: 'contain' }} />
         </a>
         <ul className="nav-links">
           <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Home</a></li>

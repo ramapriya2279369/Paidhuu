@@ -142,8 +142,8 @@ body {
 }
 
 .nav-brand-logo {
-  height: 36px;
-  width: 36px;
+  height: 32px;
+  width: 32px;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
