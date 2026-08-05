@@ -30,7 +30,7 @@ function App() {
             id: 'paidhuethicalfoods',
             name: 'Paidhu Ethical Foods',
             description: "Paidhu – The Edible Flower Co. offers premium edible flower-based foods, including Bloom Cookies, Petal Jams, Medley Teas, Brew Flora, and Saffron, crafted with natural ingredients. We are committed to healthy, preservative-free, and ethically made products that bring wellness and floral goodness to everyday life.",
-            url: 'https://paithuethicalfood.com',
+            url: 'https://paidhuethicalfoods.com',
             logo: '/assets/paidhu_logo_white.png'
           },
           {
@@ -131,9 +131,8 @@ function App() {
         <div className="hero-main-logo-container">
           <img src="/assets/paidhu_monogram_white.png" alt="Paidhu Group Monogram Logo" className="hero-main-logo" />
         </div>
-        <h1 className="hero-tagline" style={{ display: 'flex', alignItems: 'center', gap: '15px', justifyContent: 'center' }}>
+        <h1 className="hero-tagline" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <img src="/assets/paidhu_text_gold.png" alt="Paidhu" style={{ height: '70px', objectFit: 'contain' }} />
-          <span style={{ background: 'linear-gradient(90deg, #d4af37, #c0c0c0)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>GROUP</span>
         </h1>
         <p className="hero-description">
           A multi-brand ecosystem driving ethical growth, premium lifestyles, luxury craftsmanship, and smart education.
