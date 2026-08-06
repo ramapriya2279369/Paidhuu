@@ -206,7 +206,7 @@ function App() {
           <img src="/assets/paidhu_text_gold.png" alt="Paidhu" style={{ height: '14px', objectFit: 'contain' }} />
         </div>
         <div className="footer-copy">
-          &copy; {new Date().getFullYear()} Paidhu Group. All rights reserved.
+          &copy; {new Date().getFullYear()} Paidhu. All rights reserved.
         </div>
       </footer>
     </div>
