@@ -204,7 +204,6 @@ function App() {
         <div className="footer-logo" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <img src="/assets/paidhu_monogram_white.png" alt="Paidhu logo" style={{ height: '24px', objectFit: 'contain' }} />
           <img src="/assets/paidhu_text_gold.png" alt="Paidhu" style={{ height: '14px', objectFit: 'contain' }} />
-          <span style={{ fontSize: '0.85rem', fontWeight: '600', letterSpacing: '1px', color: 'var(--text-secondary)' }}>GROUP</span>
         </div>
         <div className="footer-copy">
           &copy; {new Date().getFullYear()} Paidhu Group. All rights reserved.
