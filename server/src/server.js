@@ -23,6 +23,13 @@ app.get('/api/brands', (req, res) => {
       logo: '/assets/paidhu_logo_white.png'
     },
     {
+      id: 'paidhusaffron',
+      name: 'Paidhu Saffron',
+      description: "Paidhu Saffron offers the world's finest, ethically sourced grade-A Kashmiri Saffron, handpicked for its rich aroma, deep crimson color, and unparalleled purity. We are committed to delivering authentic, premium saffron that brings natural wellness, gourmet flavor, and exquisite quality to everyday life.",
+      url: 'https://paidhusaffron.com',
+      logo: '/assets/paidhu_monogram_white.png'
+    },
+    {
       id: 'floffi',
       name: 'Floffi',
       description: "Floffi offers a delightful range of jams, sauces, spreads, and everyday food products made with carefully selected quality ingredients. We are committed to delivering great taste, freshness, and trusted quality in every product for you and your family.",
