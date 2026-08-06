@@ -27,7 +27,7 @@ app.get('/api/brands', (req, res) => {
       name: 'Paidhu Saffron',
       description: "Paidhu Saffron offers the world's finest, ethically sourced grade-A Kashmiri Saffron, handpicked for its rich aroma, deep crimson color, and unparalleled purity. We are committed to delivering authentic, premium saffron that brings natural wellness, gourmet flavor, and exquisite quality to everyday life.",
       url: 'https://paidhusaffron.com',
-      logo: '/assets/paidhu_monogram_white.png'
+      logo: '/assets/paidhu_saffron_logo.png'
     },
     {
       id: 'floffi',
